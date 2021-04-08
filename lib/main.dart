@@ -34,14 +34,21 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Container(
+                margin: EdgeInsets.all(20),
                 child: Image(
                   image: AssetImage('assets/images/memoji_aldan.jpg'),
                 ),
               ),
-              Text('Aldan Rizki Santosa',
-                  style: TextStyle(color: Colors.blue, fontSize: 30)),
-              Text('065118112',
-                  style: TextStyle(color: Colors.blue, fontSize: 25)),
+              Container(
+                child: Text('Aldan Rizki Santosa',
+                  style: TextStyle(color: Colors.blue, fontSize: 30,),
+                ),
+              ),
+              Container(
+                child: Text('065118112',
+                  style: TextStyle(color: Colors.blue, fontSize: 25,),
+                ),
+              ),
             ],
           ),
         ),
